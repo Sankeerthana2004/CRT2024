@@ -1,0 +1,13 @@
+#include <stdio.h>
+#include <string.h>
+#include <math.h>
+#include <stdlib.h>
+
+int main() {
+    int x,y,X,Y;
+    scanf("%d%d%d%d",&x,&y,&X,&Y);
+    float mid1=(float)(x+X)/2;
+    float mid2=(float)(y+Y)/2;
+    printf("Binoy's house is located at (%.1f,%.1f)",mid1,mid2);
+    
+}
