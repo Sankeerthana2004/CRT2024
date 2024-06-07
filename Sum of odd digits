@@ -1,0 +1,22 @@
+#include <stdio.h>
+#include <string.h>
+#include <math.h>
+#include <stdlib.h>
+
+int main() {
+
+    /* Enter your code here. Read input from STDIN. Print output to STDOUT */    
+    int bill,a,sum=0;
+    scanf("%d",&bill);
+    while(bill>0)
+    {
+    a=bill%10;
+    if(a%2!=0)
+    {
+        sum=sum+a;
+    }
+        bill=bill/10;
+    }
+    printf("%d",sum);
+    return 0;
+}
